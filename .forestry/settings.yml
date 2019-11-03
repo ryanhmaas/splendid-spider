@@ -5,15 +5,15 @@ admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5dbf3bde25643800193511e2/webhook/forestry
 sections:
 - type: document
-  path: site-metadata.json
-  label: Global Site Config
-  templates:
-  - config
-- type: document
   path: src/data/social.json
   label: Social Links
   templates:
   - social
+- type: document
+  path: site-metadata.json
+  label: Global Site Config
+  templates:
+  - config
 - type: document
   path: src/data/author.json
   label: Author
